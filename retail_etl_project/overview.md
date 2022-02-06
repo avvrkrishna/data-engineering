@@ -10,7 +10,7 @@
 ![Architecture design](https://github.com/avvrkrishna/data-engineering/blob/0c53cf5164ca97dc575adb2e66ffb849bdd60e05/retail_etl_project/Architecture_Design.png)
 -------------------------------------------------------- 
 ## Data Flow:
-![Data Flow]()
+![Data Flow](https://media.giphy.com/media/JaudLsEsEKhx8cGdZv/giphy.gif)
 -------------------------------------------------------- 
 ### Architecture creation:
 ### AWS Requirements:
