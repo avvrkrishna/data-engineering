@@ -7,7 +7,8 @@
 - **Snowflake** - Data warehouse to store data
 -------------------------------------------------------- 
 ## Architecture Diagram:
-![Architecture design](https://github.com/avvrkrishna/data-engineering/blob/0c53cf5164ca97dc575adb2e66ffb849bdd60e05/retail_etl_project/Architecture_Design.png)
+![Architecture design](https://github.com/avvrkrishna/data-engineering/blob/8916347f70d901163a78bbe09d5da90fbfea4c68/retail_etl_project/Architecture_Design.png)
+
 -------------------------------------------------------- 
 ## Data Flow:
 ![Data Flow](https://media.giphy.com/media/JaudLsEsEKhx8cGdZv/giphy.gif)
@@ -33,6 +34,9 @@
 ### Snowflake Requirements:
 - Snowflake account
 - Snowflake components created
+-------------------------------------------------------- 
+![Snowflake E-R](https://github.com/avvrkrishna/data-engineering/blob/8916347f70d901163a78bbe09d5da90fbfea4c68/retail_etl_project/ER-Diagram.png)
+-------------------------------------------------------- 
 -- Execute all sql code in the snowflake_components directory to create all the snowflake components with specified roles and schemas
 <br> </br>
 By Following the <a href = "https://docs.snowflake.com/en/sql-reference/sql/create-pipe.html" target="_blank" >Snowpipe documentation</a>, created the Snowpipes and integrated them AWS S3 Stage bucket with SQS as event notification
