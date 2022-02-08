@@ -47,6 +47,7 @@ By Following the <a href = "https://docs.snowflake.com/en/sql-reference/sql/crea
 ``` aws s3 sync /home/ec2-user/my_work/user/ s3://np-etl-inbound/user/
     aws s3 sync /home/ec2-user/my_work/transactions s3://np-etl-inbound/transactions/
 ```
+**Note**: Restrict the use of aws sync and don't let aws sync run continuosly, it will incur aws s3 put and list operations and increases budget
  ### Data Flow Process after data is generated:
  - The above command will sync the files generated through generator python code to Inbound S3 bucket
  - Lambda function will be triggered and copies the files to Stage S3 bucket and Archive S3 bucket at the same time
