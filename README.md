@@ -1,2 +1,2 @@
 # data-engineering
-Repository describing my sql learning and its respective projects
+Repository describing etl learning process with details of pipelines and process details
