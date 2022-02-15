@@ -39,10 +39,10 @@
 -------------------------------------------------------- 
 -- Execute all sql code in the snowflake_components directory to create all the snowflake components with specified roles and schemas
 <br> </br>
-By Following the <a href = "https://docs.snowflake.com/en/sql-reference/sql/create-pipe.html" target="_blank" >Snowpipe documentation</a>, created the Snowpipes and integrated them AWS S3 Stage bucket with SQS as event notification
+By Following the <a href = "https://docs.snowflake.com/en/sql-reference/sql/create-pipe.html" target="_blank" >Snowpipe documentation</a>, created the Snowpipes and integrated them with AWS S3 Stage bucket using SQS as event notification
 <br></br>
 ### Random data generation:
-- Create a shell script which syncs the aws ec2 and Inbound S3 bucket as shown below:
+- Create a shell script which synchronizes the aws ec2 and Inbound S3 bucket as shown below:
 
 ``` aws s3 sync /home/ec2-user/my_work/user/ s3://np-etl-inbound/user/
     aws s3 sync /home/ec2-user/my_work/transactions s3://np-etl-inbound/transactions/
