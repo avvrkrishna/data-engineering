@@ -53,3 +53,7 @@ By Following the <a href = "https://docs.snowflake.com/en/sql-reference/sql/crea
  - Lambda function will be triggered and copies the files to Stage S3 bucket and Archive S3 bucket at the same time
  - Stage S3 bucket SQS will generate a queue message and the Snowpipe will execute and loads the data to the Raw table
  - Scheduled Snowflake Task will execute and it will check for the Table stream on the Raw table and it will load the delta records to the Target table.
+
+### Outcome:
+- Final ETL project which continuously loads the data to respective snowflake tables.
+- Data from the Snowflake tables can be further used for processing and creating reports and dashboards by Visualization team
