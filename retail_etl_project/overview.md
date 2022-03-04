@@ -56,4 +56,4 @@ By Following the <a href = "https://docs.snowflake.com/en/sql-reference/sql/crea
 
 ### Outcome:
 - Final ETL project which continuously loads the data to respective snowflake tables.
-- Data from the Snowflake tables can be further used for processing and creating reports and dashboards
+- Data from the Snowflake tables can be further used for processing and creating reports and dashboards by Visualization team
